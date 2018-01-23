@@ -20,10 +20,8 @@ public class binary_search{
       int mid = (min + max)/2;
       if(list[mid] > search){
         max = mid - 1;
-        System.out.println(list[mid]);
       }else if(list[mid] < search){
         min = mid + 1;
-        System.out.println(list[mid]);
       }else{
         found = true;
         System.out.println("found at:" + (mid+1));
